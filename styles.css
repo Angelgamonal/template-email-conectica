@@ -1,0 +1,87 @@
+:root {
+  --primary: #65c1b4;
+  --secondary: #ede3cc;
+  --black: #141c1b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Oxygen, Trebuchet MS, Lucida Grande, Lucida Sans Unicode,
+    Lucida Sans, Tahoma, sans-serif;
+}
+
+body {
+  font-size: 14px;
+  width: 100%;
+  color: var(--black);
+}
+.container {
+  width: 100%;
+  max-width: 600px;
+  /* background-color: var(--primary); */
+  margin: auto;
+  padding: 0.5em;
+}
+
+.header {
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.section__company__image {
+  width: 100%;
+  max-width: 120px;
+  aspect-ratio: 16/8;
+}
+
+.section__company__name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 0.6em;
+  font-weight: 600;
+}
+
+.user__id {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: end;
+}
+.user__id_span {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+.user__id__box {
+  background-color: var(--primary);
+  padding: 0.5em 2em;
+}
+
+.user__id__box__h5 {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.user__info {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0.5em;
+  margin: 0.3em 0;
+  text-align: end;
+}
+
+.user__info__name {
+  font-weight: 800;
+  font-size: 0.9em;
+}
+.user__info__phone {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+.user__info__email {
+  font-size: 0.8em;
+}
