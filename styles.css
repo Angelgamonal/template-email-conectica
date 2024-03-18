@@ -198,6 +198,32 @@ th {
   font-size: 1.2em;
 }
 
+.main-account {
+  margin: 0.5em 0;
+}
+
+.main-account__div {
+  display: none;
+}
+
+.main-account__article__h5 {
+  background-color: var(--primary);
+  padding: 0.5em 2em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.main-account__article__div {
+  padding: 0.3em 0.5em;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+}
+
+.main-account__article__div__strong {
+  font-size: 1.1em;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -230,5 +256,15 @@ th {
   .main-total__article__span {
     font-size: 1.2em;
     padding: 0.8em 0.4em;
+  }
+
+  .main-account__div {
+    display: block;
+  }
+
+  .main-account {
+    display: grid;
+    grid-template-columns: 1fr 60%;
+    gap: 0.5em;
   }
 }
